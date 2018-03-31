@@ -1,0 +1,47 @@
+body {
+  
+background: rgba(163,220,255,1) no-repeat center center fixed;/* Old Browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(163,220,255,1) 0%, rgba(15,179,255,1) 49%, rgba(83,199,255,1) 64%, rgba(173,225,255,1) 84%, rgba(185,222,243,1) 100%) no-repeat center center fixed;/* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(163,220,255,1)), color-stop(49%, rgba(15,179,255,1)), color-stop(64%, rgba(83,199,255,1)), color-stop(84%, rgba(173,225,255,1)), color-stop(100%, rgba(185,222,243,1))) no-repeat center center fixed;/* Chrome, Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(163,220,255,1) 0%, rgba(15,179,255,1) 49%, rgba(83,199,255,1) 64%, rgba(173,225,255,1) 84%, rgba(185,222,243,1) 100%) no-repeat center center fixed; /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(163,220,255,1) 0%, rgba(15,179,255,1) 49%, rgba(83,199,255,1) 64%, rgba(173,225,255,1) 84%, rgba(185,222,243,1) 100%); /* Opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(163,220,255,1) 0%, rgba(15,179,255,1) 49%, rgba(83,199,255,1) 64%, rgba(173,225,255,1) 84%, rgba(185,222,243,1) 100%) no-repeat center center fixed ; /* IE 10+ */
+background: radial-gradient(ellipse at center, rgba(163,220,255,1) 0%, rgba(15,179,255,1) 49%, rgba(83,199,255,1) 64%, rgba(173,225,255,1) 84%, rgba(185,222,243,1) 100%) no-repeat center center fixed;/* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3dcff', endColorstr='#b9def3', GradientType=1 );/* IE6-9 fallback on horizontal gradient */
+
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.icon {
+  width: 200px;
+  height: auto;
+}
+
+.temp {
+  display: inline;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+.weather {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.weather-form {
+  width: 400px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
